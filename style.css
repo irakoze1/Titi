@@ -222,7 +222,18 @@ header #toggle:after
 	}
 	.banner
 	{
-		padding: 100px 50px 150px;
+		padding: 10px 50px 150px;
+		background: url(img/titi.png);
+		background-color: #000;
+		position: relative;
+		width: auto;
+		height: auto;
+		min-height: 100vh;
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		transition: 0.5s;
+		z-index: 2;
 	}
 	.banner h2
 	{
